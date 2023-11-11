@@ -58,7 +58,6 @@ main {
   overflow: hidden;
 }
 
-/* Utils */
 .section {
   padding: 60px 0;
 }
@@ -80,7 +79,6 @@ main {
   font-size: 28px;
   color: rgb(38, 32, 78);
 }
-
 
 .loader {
   position: fixed;
@@ -160,7 +158,7 @@ main {
     width: 75%;
     height: 100vh;
     padding: 20px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primay);
     box-shadow: -7px 1px 42px 1px #0000005e;
     transition: left .8s ease-in-out;
   }
@@ -234,7 +232,6 @@ main {
   border-radius: 3px 3px 15px 3px;
   background-color: var(--color-primay);
 }
-
 
 .portfolio {
   background-color: #00000008;
@@ -338,7 +335,7 @@ main {
   overflow: hidden;
 }
 
-/* Contact */
+
 .label__input {
   background-color: #dfdfdf;
   border-radius: 3px 3px 15px 3px;
@@ -374,7 +371,7 @@ main {
   background-color: var(--color-primay);
 }
 
-/* Footer */
+
 .footer {
   background-color: var(--color-primay);
   color: #fff;
@@ -392,7 +389,7 @@ main {
   left: 0;
   width: 0%;
   height: 3px;
-  background-color: var(--color-primay);
+  background-color: white;
   z-index: 101;
 }
 
