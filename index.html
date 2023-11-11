@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert Ticona | Portafolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body class="unaclase otraclase">
+  <div class="progress"></div>
+
+  <div id="loader" class="loader">
+    <img src="https://th.bing.com/th/id/R.dd911e483c6b62c794e52a039a7180af?rik=7VzuLKFSVr0Wdg&pid=ImgRaw&r=0" alt="loader">
+  </div>
+  
+  <header class="header">
+    <nav class="header__nav">
+      <a class="header__logo" href="#home"><h1><span>🐺</span></h1></a>
+
+      <div class="header__menu">
+        <button class="header__btn btn--close">
+          <i class='bx bx-x'></i>
+        </button>
+
+        <ul class="list">
+          <li class="list__item">
+            <a href="#home" class="list__link active">Start</a>
+          </li>
+          <li class="list__item">
+            <a href="#about" class="list__link">About Me</a>
+          </li>
+          <li class="list__item">
+            <a href="#portfolio" class="list__link">My Projects</a>
+          </li>
+          <li class="list__item">
+            <a href="#reference" class="list__link">References</a>
+          </li>
+          <li class="list__item">
+            <a href="#contact" class="list__link">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="header__btn btn--open">
+        <i class='bx bx-menu'></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="home" class="hero">
+
+      <div class="container">
+        <div class="hero__img">
+          <img src="assets/img/albert.png" alt="JS">
+        </div>
+
+        <div class="hero__content">
+          <span class="hero__tag">Full Stack Software Developer</span>
+          <h1 class="hero__title">Hello! It´s Albert Ticona<span class="span__dot">.</span></h1>
+          <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti corrupti iure
+            consequatur aliquid tempore, neque nobis, natus alias laboriosam nisi laudantium. Harum dolores et
+            dolor, mollitia laom returns moleto.</p>
+
+          <button class="hero__btn" type="button">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h2 class="section__title">About Me<span class="span__dot"></span></h2>
+
+      <div class="container">
+        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit obcaecati provident ab
+          voluptates rerum dicta laborum mollitia eligendi commodi possimus nisi praesentium ipsa soluta culpa, eos,
+          officia fugit nam explicabo.</p>
+        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit obcaecati provident ab
+          voluptates rerum dicta laborum mollitia eligendi commodi possimus nisi praesentium ipsa soluta culpa, eos,
+          officia fugit nam explicabo.</p>
+        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit obcaecati provident ab
+          voluptates rerum dicta laborum mollitia eligendi commodi possimus nisi praesentium ipsa soluta culpa, eos,
+          officia fugit nam explicabo.</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <h2 class="section__title">My Projects<span class="span__dot"></span></h2>
+
+      <div class="container">
+        <div class="portfolio__content">
+
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="assets/iconos/html.svg" alt="HTML">
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">HTML</h3>
+              <p class="portfolio__text">HTML is the language used to define the content of web pages. Basically, it is a set of tags that are used to define the text and other elements that will make up a web page, such as images, lists, videos, etc.
+              </p>
+              <a class="portfolio__link" href="#contact">See More...</a>
+            </div>
+          </article>
+
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="assets/iconos/css.svg" alt="CSS">
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">CSS</h3>
+              <p class="portfolio__text">The acronym CSS (Cascading Style Sheets) stands for "Cascading Style Sheets" and is based on a simple but very powerful concept: applying styles (colors, shapes, margins, etc...) to one or more documents (usually HTML documents, web pages) automatically and in bulk.
+              </p>
+              <a class="portfolio__link" href="#contact">See More...</a>
+            </div>
+          </article>
+
+          <article class="portfolio__item">
+            <div class="portfolio__img-content">
+              <img class="portfolio__img" src="assets/iconos/javascript.svg" alt="nature">
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">JS</h3>
+              <p class="portfolio__text">JavaScript is the programming language you should use to add interactive features to your website, (e.g., games, events that occur when buttons are pressed or data is entered into forms, dynamic styling effects, animation, and more).
+              </p>
+              <a class="portfolio__link" href="#contact">See More...</a>
+            </div>
+          </article>          
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews">
+
+      <div class="reviews__header">
+        <h2 class="section__title">References<span class="span__dot"></span></h2>
+  
+        <div class="reviews__buttons">
+          <div class="button--prev"><i class='bx bxs-left-arrow-circle'></i></div>
+          <div class="button--next"><i class='bx bxs-right-arrow-circle'></i></div>
+        </div>
+      </div>
+
+      <div class="container swiper">
+
+        <div class="reviews__content swiper-wrapper">
+
+          
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="assets/img/Foto Albert Actual.jpg" alt="Albert">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Full Stack</span>
+                  <h3 class="reviews__name">Giovanni Casani</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+
+            
+            <div class="swiper-slide">
+              <div class="reviews__item">
+                <div class="reviews__head">
+                  <div class="reviews__img">
+                    <img src="assets/img/Foto Albert Antigua.jpg" alt="Albert">
+                  </div>
+  
+                  <div class="reviews__info">
+                    <span class="reviews__tag">Backend</span>
+                    <h3 class="reviews__name">Giovanni Ticona</h3>
+                  </div>
+                </div>
+                <p class="reviews__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                  consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                  voluptatibus dolorum tempore, iste autem.
+                </p>
+              </div>
+            </div>
+
+              
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <div class="reviews__head">
+                <div class="reviews__img">
+                  <img src="assets/img/albert.png" alt="Albert">
+                </div>
+
+                <div class="reviews__info">
+                  <span class="reviews__tag">Frontend</span>
+                  <h3 class="reviews__name">Albert Casani</h3>
+                </div>
+              </div>
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates dolorem quod molestiae,
+                consequuntur aliquid incidunt? Fugiat consectetur impedit deleniti iure commodi dolor aut, voluptas
+                voluptatibus dolorum tempore, iste autem.
+              </p>
+            </div>
+          </div>
+        
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section__title">Contact Me<span class="span__dot">.</span></h2>
+
+      <div class="container">
+        <form id="form" class="contact__form">
+          <div class="label__input">
+            <label for="name"><i class='bx bxs-user'></i></label>
+            <input type="text" id="name" placeholder="Your Name:" name="name">
+          </div>
+
+          <div class="label__input">
+            <label for="email"><i class='bx bx-at'></i></label>
+            <input type="email" id="email" placeholder="Your E-mail:" name="email">
+          </div>
+
+          <div>
+            <label for="message">What is your messsage?</label> <br>
+            <textarea name="message" id="message" rows="10"></textarea>
+          </div>
+
+          <button class="contact__btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">&copy; 2023</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
